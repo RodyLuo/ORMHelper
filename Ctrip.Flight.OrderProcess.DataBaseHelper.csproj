@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C571E5FE-1C0A-4322-9791-2035E355EC1F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ctrip.Flight.OrderProcess.DataBaseHelper</RootNamespace>
+    <AssemblyName>Ctrip.Flight.OrderProcess.DataBaseHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Security, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.EnterpriseLibrary.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\..\..\..\Common\Lib\EL2\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigDataCommandFileList.cs" />
+    <Compile Include="DalConfig\DalSqlNodes.cs" />
+    <Compile Include="DataCommand.cs" />
+    <Compile Include="DataCommandFileLoadException.cs" />
+    <Compile Include="DataCommandManager.cs" />
+    <Compile Include="dataOperations.cs" />
+    <Compile Include="DataOperationsDataCommand.cs" />
+    <Compile Include="DataOperationsDataCommandCommandType.cs" />
+    <Compile Include="DataOperationsDataCommandParameters.cs" />
+    <Compile Include="DataOperationsDataCommandParametersParam.cs" />
+    <Compile Include="dataOperationsDataCommandParametersParamDbType.cs" />
+    <Compile Include="dataOperationsDataCommandParametersParamDirection.cs" />
+    <Compile Include="DynamicQuerySqlBuilder.cs" />
+    <Compile Include="EntityBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XMLConfig\CaseInsensitiveStringEqualityComparer.cs" />
+    <Compile Include="XMLConfig\CommonDataInstance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XMLConfig\Condition.cs" />
+    <Compile Include="XMLConfig\ConditionCollectionContext.cs" />
+    <Compile Include="XMLConfig\ConditionConstructor.cs" />
+    <Compile Include="XMLConfig\ConfigIntanceBase.cs" />
+    <Compile Include="XMLConfig\ConfigurationFile.cs" />
+    <Compile Include="XMLConfig\ConfigurationFileList.cs" />
+    <Compile Include="CustomCondition.cs" />
+    <Compile Include="CustomDataCommand.cs" />
+    <Compile Include="XMLConfig\DataAccessLogger.cs" />
+    <Compile Include="XMLConfig\DataAccessManagerSection.cs" />
+    <Compile Include="XMLConfig\DataAccessSetting.cs" />
+    <Compile Include="XMLConfig\DbCommandFactory.cs" />
+    <Compile Include="XMLConfig\DbInstanceManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XMLConfig\Entity\DataMappingAttribute.cs" />
+    <Compile Include="XMLConfig\Entity\DataReaderEntitySource.cs" />
+    <Compile Include="XMLConfig\Entity\DataRowEntitySource.cs" />
+    <Compile Include="XMLConfig\Entity\IEntityDataSource.cs" />
+    <Compile Include="XMLConfig\Entity\PagingInfoEntity.cs" />
+    <Compile Include="XMLConfig\Entity\QueryConditionEntity.cs" />
+    <Compile Include="XMLConfig\Entity\ReferencedEntityAttribute.cs" />
+    <Compile Include="XMLConfig\FileSystemChangeEventHandler.cs" />
+    <Compile Include="XMLConfig\GlobalConfigurationSource.cs" />
+    <Compile Include="XMLConfig\GlobalSettingsSection.cs" />
+    <Compile Include="XMLConfig\IConfigurationSource.cs" />
+    <Compile Include="XMLConfig\LeftBracketCondition.cs" />
+    <Compile Include="XMLConfig\LocalConfigurationSource.cs" />
+    <Compile Include="XMLConfig\NormalDataInstance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XMLConfig\OrderProcessConfig.cs" />
+    <Compile Include="XMLConfig\ParameterValueValidateCheckDelegate.cs" />
+    <Compile Include="XMLConfig\QueryConditionOperatorType.cs" />
+    <Compile Include="XMLConfig\QueryConditionRelationType.cs" />
+    <Compile Include="XMLConfig\RightBraketCondition.cs" />
+    <Compile Include="XMLConfig\SqlCondition.cs" />
+    <Compile Include="XMLConfig\SubQueryCondition.cs" />
+    <Compile Include="XMLConfig\Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

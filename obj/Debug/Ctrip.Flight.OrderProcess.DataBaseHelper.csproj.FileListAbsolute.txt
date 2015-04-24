@@ -1,0 +1,11 @@
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Ctrip.Flight.OrderProcess.DataBaseHelper.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Ctrip.Flight.OrderProcess.DataBaseHelper.pdb
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\obj\Debug\Ctrip.Flight.OrderProcess.DataBaseHelper.dll
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\obj\Debug\Ctrip.Flight.OrderProcess.DataBaseHelper.pdb
+D:\Work\FltOrderProcess\CommonLayer\DataBaseHelper\Ctrip.Flight.OrderProcess.DataBaseHelper\obj\Debug\Ctrip.Flight.OrderProcess.DataBaseHelper.csprojResolveAssemblyReference.cache
